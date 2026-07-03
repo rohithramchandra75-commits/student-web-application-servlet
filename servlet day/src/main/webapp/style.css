@@ -1,0 +1,133 @@
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(94, 159, 249);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 1px gray;
+}
+
+nav{
+    background-color:  rgb(175, 183, 189);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight:bold;
+    text-shadow: 2px 2px 1px gray;
+}
+
+nav a:hover{
+    color: gold;
+    font-weight:900;
+    text-shadow: 2px 2px 1px gray;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    background-color: rgb(243, 241, 241);
+    
+}
+
+section{
+    padding: 20px;
+}
+
+section h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(245, 238, 208);
+
+}
+
+.container div{
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+    margin: 1px;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(189, 188, 188);
+    border-radius:10%;
+}
+
+footer{
+    background-color: rgb(143, 189, 230);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 1px gray;
+}
+
+.form-box{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+
+.sub-element {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background: rgb(0, 143, 0);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(14, 187, 14);
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: center;
+    padding: 10px;
+}
+
+th{
+    background: rgb(149, 146, 146);
+    color: white
+}
+
+@media (max-width: 350px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .form-box{
+        width: 200px;
+    }
+}

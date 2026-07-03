@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Productivity Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Enroll for a New Course right now!</h1>
+    <p>Register for a New Course Here!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="register.html">Register</a>
+    <a href="tasks.jsp">Tasks</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="login.html">Login</a>
+</nav>
+
+<section>
+
+<form class="form-box" action="register" method="post">
+
+    <label>Full Name</label>
+    <input
+        type="text"
+        name="name"
+        placeholder="Enter Full Name"
+        required>
+
+    <label>Email</label>
+    <input
+        type="email"
+        name="email"
+        placeholder="Enter Email"
+        required>
+
+    <label>Phone</label>
+    <input
+        type="tel"
+        name="phone"
+        placeholder="Enter Phone Number"
+        required>
+
+    <label>Gender</label>
+
+    <div class="sub-element">
+
+        <input
+            type="radio"
+            name="gender"
+            value="Male"
+            required> Male
+
+        <input
+            type="radio"
+            name="gender"
+            value="Female"> Female
+
+    </div>
+
+    <label>Select Course</label>
+
+    <select name="course" required>
+
+        <option value="">Select Course</option>
+
+        <option value="Java DSA">Java DSA</option>
+
+        <option value="Full Stack">Full Stack</option>
+
+        <option value="SQL">SQL</option>
+
+        <option value="Python">Python</option>
+
+    </select>
+
+    <label>Skills</label>
+
+    <div class="sub-element">
+
+        <input
+            type="checkbox"
+            name="skills"
+            value="HTML"> HTML
+
+        <input
+            type="checkbox"
+            name="skills"
+            value="CSS"> CSS
+
+        <input
+            type="checkbox"
+            name="skills"
+            value="JavaScript"> JavaScript
+
+    </div>
+
+    <button type="submit">
+        Register
+    </button>
+
+</form>
+
+</section>
+
+<footer>
+
+<h3>Student Productivity Portal</h3>
+
+<p>Course Registration System</p>
+
+</footer>
+
+</body>
+</html>
